@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="style4.css">  <!-- Link to CSS -->
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+
+<body>
+  <!-- Header Section -->
+  <header class="shopping-cart">
+    <button class="icon-btn">
+        <!-- Arrow Left SVG -->
+         <a href="index1.html">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-left">
+                <line x1="19" y1="12" x2="5" y2="12"></line>
+                <polyline points="12 19 5 12 12 5"></polyline>
+            </svg>
+         </a>       
+    </button>
+    <span class="title">&nbsp;&nbsp;&nbsp;Shopping cart</span>
+  </header>
+
+
+      <!-- cart section  -->
+    <div class="cart-container">
+        <div class="cart-item">
+            <img src="images/cloth/1.jpg" alt="Product Image">
+            <div class="item-details">
+                <p class="item-title">T-shirts with multiple colors for men</p>
+                <p class="item-desc">Size: medium, Color: blue<br>Seller: Artel Market</p>
+                <div class="price">
+                    <div class="qty-control">
+                        <button>-</button>
+                        <span>2</span>
+                        <button>+</button>
+                    </div>
+                    <span class="price">$78.99</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="cart-item">
+            <img src="images/cloth/5.jpg" alt="Product Image">
+            <div class="item-details">
+                <p class="item-title">Solid Backpack blue jeans large size</p>
+                <p class="item-desc">Size: medium, Color: blue<br>Seller: Artel Market</p>
+                <div class="price">
+                    <div class="qty-control">
+                        <button>-</button>
+                        <span>1</span>
+                        <button>+</button>
+                    </div>
+                    <span class="price">$78.99</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="cart-item">
+            <img src="images/cloth/7.jpg" alt="Product Image">
+            <div class="item-details">
+                <p class="item-title">Water boiler black for kitchen, 1200 Watt</p>
+                <p class="item-desc">Size: medium, Color: blue<br>Seller: Artel Market</p>
+                <div class="price">
+                    <div class="qty-control">
+                        <button>-</button>
+                        <span>2</span>
+                        <button>+</button>
+                    </div>
+                    <span class="price">$78.99</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="cart-order">
+            <div><span>Items (3):</span><span>$32.00</span></div>
+            <div><span>Shipping:</span><span>$10.00</span></div>
+            <div><span>Tax:</span><span>$7.00</span></div>
+            <div class="total"><span>Total:</span><span>$220.00</span></div>
+            <button class="checkout-btn">Checkout (3 items)</button>
+        </div>
+
+
+        
+    </div>
+
+
+
+    <!-- saved later section -->
+    <div class="save-container">
+        <h3>Saved for later</h3>
+
+        <div class="save-card">
+            <img src="images/tech/5.jpg" alt="Headphones">
+            <div class="saved-details">
+                <p class="product-name">Regular Fit Resort Shirt</p>
+                <p class="price">$57.70</p>
+                <div class="btn-group">
+                    <button class="move-btn">Move to cart</button>
+                    <button class="remove-btn">Remove</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="save-card">
+            <img src="images/tech/3.jpg" alt="Phone">
+            <div class="saved-details">
+                <p class="product-name">Regular Fit Resort Shirt</p>
+                <p class="price">$57.70</p>
+                <div class="btn-group">
+                    <button class="move-btn">Move to cart</button>
+                    <button class="remove-btn">Remove</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="save-card">
+            <img src="images/tech/8.jpg" alt="Watch">
+            <div class="saved-details">
+                <p class="product-name">Regular Fit Resort Shirt</p>
+                <p class="price">$57.70</p>
+                <div class="btn-group">
+                    <button class="move-btn">Move to cart</button>
+                    <button class="remove-btn">Remove</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    
+
+    <!-- Subscribe -->
+    <section>
+        <div style="text-align: center; margin-bottom: 30px;">
+            <h3 style="margin: 0 0 10px;">Subscribe on our newsletter</h3>
+            <p style="margin: 0 0 15px; color: #555;">Get daily news on upcoming offers from many suppliers all over the
+                world</p>
+            <form style="display: flex; justify-content: center; flex-wrap: wrap; gap: 10px;">
+                <input type="email" placeholder="Email" style="padding: 10px; width: 200px; border-radius: 5px; border: 1px solid #ccc;">
+                <a href="index1.html">
+                    <button type="submit" style="padding: 10px 20px; background-color: #007bff; color: white; border: none; border-radius: 5px;">Subscribe</button>
+                </a>
+                
+            </form>
+        </div>
+          
+   </section>
+
+
+   <section style="background-color: white;">
+   <div class="footer-main" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 25px; margin-top: 10px; margin-bottom: 50px; margin-left: 15px;">
+
+    <div style="margin-top: 15px;">
+        <img src="images/symbols/logo-colored.svg" alt="">
+        <p style="color: #555;">Best information about the company goes here but now lorem ipsum is</p>
+        <div style="display: flex; gap: 10px; margin-top: 10px; margin-bottom: 10px;">
+            <div style="display: flex; gap: 10px; margin-top: 10px;">
+                <a href="#"><i class="fab fa-facebook-f" style="color: #BDC4CD; font-size: 20px; padding: 10px; border-radius: 50%; background-color: white;"></i></a>
+                <a href="#"><i class="fab fa-twitter" style="color: #BDC4CD; font-size: 20px;padding: 10px; border-radius: 50%; background-color: white;"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in" style="color: #BDC4CD; font-size: 20px;padding: 10px; border-radius: 50%; background-color: white;"></i></a>
+                <a href="#"><i class="fas fa-envelope" style="color: #BDC4CD; font-size: 20px;padding: 10px; border-radius: 50%; background-color: white;"></i></a>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Footer Links -->
+    <div style="margin-top: 25px;">
+        <h4>About</h4>
+        <ul style="list-style: none; padding: 0; color: #555; margin-bottom: 20px; margin-top: 10px;">
+            <li>About Us</li>
+            <li>Find store</li>
+            <li>Categories</li>
+            <li>Blogs</li>
+        </ul>
+    </div>
+
+    <div style="margin-top: 25px;">
+        <h4>Partnership</h4>
+        <ul style="list-style: none; padding: 0; color: #555; margin-bottom: 20px; margin-top: 10px;">
+            <li>About Us</li>
+            <li>Find store</li>
+            <li>Categories</li>
+            <li>Blogs</li>
+        </ul>
+    </div>
+
+    <div style="margin-top: 25px;">
+        <h4>Information</h4>
+        <ul style="list-style: none; padding: 0; color: #555; margin-bottom: 20px; margin-top: 10px;">
+            <li>Help Center</li>
+            <li>Money Refund</li>
+            <li>Shipping</li>
+            <li>Contact us</li>
+        </ul>
+    </div>
+
+    <div style="margin-top: 25px;">
+        <h4>For users</h4>
+        <ul style="list-style: none; padding: 0; color: #555; margin-bottom: 20px; margin-top: 10px;">
+            <li>Login</li>
+            <li>Register</li>
+            <li>Settings</li>
+            <li>My Orders</li>
+        </ul>
+    </div>
+
+    <!-- Get App -->
+    <div style="margin-top: 25px;">
+        <h4>Get app</h4>
+        <a href="#"><img src="images/checkout/apple.png" alt="App Store" width="120" style=" margin-bottom: 20px; margin-top: 5px;"></a><br>
+        <a href="#"><img src="images/checkout/google.png" alt="Google Play" width="120" style="margin-top: -20px;"></a>
+    </div>
+   </div>
+  </section>
+    <!-- footer -->
+    <footer>
+        <p class="foot">&copy; 2025 Sarah RJ Ecommerce Website. All Rights Reserved.</p>
+    </footer>
+
+
+        <script src="style.js"></script>
+</body>
+</html>
