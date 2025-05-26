@@ -65,8 +65,9 @@ body {
 
 /* Search Container */
 .search-container {
-  margin: 10px 20px; /* Adds space on both left and right margins */
-  width: calc(100% - 40px); /* Adjusts width to account for the added margins */
+  margin: 0px 400px ; /* Adds space on both left and right margins */
+  width: calc(50% - 40px); /* Adjusts width to account for the added margins */
+
 }
 
 .search-container input {
@@ -216,10 +217,12 @@ body {
   display: flex;
   align-items: center;
   padding: 40px 20px;
-  min-height: 240px;
+  min-height: 500px;
   margin-top: -80px;
   margin-bottom: 90px;
   border-radius: 5px;
+  
+
 }
 
 .hero-text {
