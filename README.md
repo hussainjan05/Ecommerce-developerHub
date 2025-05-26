@@ -39,12 +39,7 @@ The website is responsive and adapts beautifully to:
 
 ## 📌 How to Use
 
-1. Clone the repository:
 
-   ```bash
-   git clone https://github.com/Sarahrj464/E-commerce-mobile-responsive-design.git
-   ```
-2. Open `index.html` in your browser or use Live Server (VS Code extension) for development.
 
 
 ## 🙌 Acknowledgments
